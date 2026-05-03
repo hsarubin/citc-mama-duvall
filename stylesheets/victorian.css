@@ -1,0 +1,122 @@
+/* ============================================================
+   Victorian Telegraph Theme — Carnage in the Cascades
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IM+Fell+English:ital@0;1&display=swap');
+
+/* ── Headings — Playfair Display serif ───────────────────── */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset h1 {
+  font-size: 2em;
+  font-weight: 700;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.3em;
+  margin-bottom: 0.6em;
+}
+
+.md-typeset h2 {
+  font-size: 1.35em;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: 0.2em;
+}
+
+/* ── Site header — serif title ───────────────────────────── */
+
+.md-header__title {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+}
+
+/* ── Navigation — cleaner sidebar labels ─────────────────── */
+
+.md-nav__title {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.md-nav__item .md-nav__link {
+  font-size: 0.85em;
+}
+
+/* ── Info callout — styled as a telegraph card ───────────── */
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left: 4px solid #8B6914;
+  background-color: rgba(139, 105, 20, 0.08);
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: rgba(139, 105, 20, 0.15);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* ── Tables — period-appropriate ────────────────────────────*/
+
+.md-typeset table:not([class]) {
+  border: 1px solid rgba(255,255,255,0.15);
+  font-size: 0.85em;
+}
+
+.md-typeset table:not([class]) th {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  background-color: rgba(139, 105, 20, 0.2);
+  letter-spacing: 0.03em;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: rgba(255,255,255,0.03);
+}
+
+/* ── Blockquote — italicised, indented speech ────────────── */
+
+.md-typeset blockquote {
+  border-left: 3px solid #8B6914;
+  font-family: 'IM Fell English', 'Georgia', serif;
+  font-style: italic;
+  color: rgba(255,255,255,0.75);
+  padding-left: 1.2em;
+}
+
+/* ── Horizontal rule — decorative divider ───────────────── */
+
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin: 1.5em 0;
+  position: relative;
+}
+
+/* ── Homepage — section headings ────────────────────────── */
+
+.md-typeset h2:first-of-type {
+  margin-top: 1em;
+}
+
+/* ── Body text ───────────────────────────────────────────── */
+
+.md-typeset {
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+/* ── Emphasis in period voice ────────────────────────────── */
+
+.md-typeset em {
+  font-family: 'IM Fell English', 'Georgia', serif;
+}
